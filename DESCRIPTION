@@ -1,0 +1,12 @@
+Package: pdl
+Type: Package
+Title: Polynomial Distributed-Lag Models
+Version: 0.0
+Date: 2021-04-01
+Author: Federica Sauro Graziano
+Maintainer: Federica Sauro Graziano <federica.sauro@stud.unifi.it>
+Description: Estimation of polynomial distributed-lag models. Currently, the general polynomial lag by Almon (1965) is available, together with two constrained polynomial lags: (i) linearly decreasing, and (ii) parabolic with endpoint constraints.
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, stats
+License: GPL-2
+NeedsCompilation: no

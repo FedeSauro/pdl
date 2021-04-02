@@ -1,0 +1,19 @@
+export(L, L1, L2, pdl, pdl_L1, pdl_L2)
+
+S3method(summary, pdl)
+S3method(plot, pdl)
+S3method(confint, pdl)
+S3method(summary, pdl_L1)
+S3method(plot, pdl_L1)
+S3method(confint, pdl_L1)
+S3method(summary, pdl_L2)
+S3method(plot, pdl_L2)
+S3method(confint, pdl_L2)
+
+import("ggplot2")
+importFrom("grDevices", "adjustcolor")
+importFrom("graphics", "abline", "arrows", "box", "grid", "lines",
+           "points", "polygon")
+importFrom("stats", "extractAIC", "formula", "lm", "model.matrix",
+           "nobs", "pchisq", "pnorm", "predict", "predict.lm", "qt",
+           "spline", "summary.lm", "vcov")
